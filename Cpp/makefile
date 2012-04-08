@@ -5,4 +5,5 @@ all: run
 
 run: main.cpp
 	$(CC) main.cpp $(FLAGS)
-
+clean:
+	rm *~ run  *.out
